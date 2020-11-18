@@ -1,7 +1,6 @@
 # 友情提示!
 ## 为了开发效率，建议使用WebStorm IDE进行开发! 请放弃 Visual Studio Code!
-  
-    
+   
 # Node项目启动步骤
 1. **Pull the project from github to local** 
 2. **install cnpm and change npm download source**  
@@ -16,6 +15,12 @@
 1. 配置app.js(相当于配置整个Web工程生命)
 2. 编写routes 
 3. 编写views and public
+
+# 引用
+### Express的正确编写姿势
+https://learnku.com/nodejs/t/38129
+
+
 # 个人博客
 ![MM](http://qiusunzuo.com/wp-content/uploads/2020/10/109_34836.jpg)  
 
