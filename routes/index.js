@@ -10,10 +10,26 @@ router.get('/', function(req, res, next) {
 });
 
 // 定义一个GET请求"/world" 的路由，执行方法
-router.get('/world',function (req,res,next) {
-  res.render('index',{title: 'Hello world！'})
+router.get('/getWorld',function (req,res,next) {
+  res.render('index',{title: 'Hello world！ get'})
 })
 
+// Post请求方式
+router.post('/postWorld',function (req,res,next) {
+  res.render('index',{title : 'Hello world! post'});
+})
+
+// Put请求方式
+router.put('/putWorld',function (req,res,next) {
+  res.render('index',{title : 'Hello world! put'})
+
+})
+
+// Delete请求方式
+router.delete('/deleteWorld',function (req,res,next) {
+  res.render('index',{title : 'Hello world! delete'})
+
+})
 
 // 导出路由
 module.exports = router;

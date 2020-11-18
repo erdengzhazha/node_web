@@ -8,10 +8,17 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 // 引入日志模块
 var logger = require('morgan');
+
+
+
 // 引入路由目录中的index.js文件
 var indexRouter = require('./routes/index');
 // 引入路由目录中的users.js文件
 var usersRouter = require('./routes/users');
+
+
+
+
 // 创建Express应用
 var app = express();
 
