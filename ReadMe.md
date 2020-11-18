@@ -1,4 +1,5 @@
-# 友情提示!为了开发效率，建议使用WebStorm IDE 进行开发,请放弃 Visual Studio Code
+# 友情提示!
+## 为了开发效率，建议使用WebStorm IDE进行开发! 请放弃 Visual Studio Code!
   
     
 # Node项目启动步骤
