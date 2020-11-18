@@ -29,6 +29,8 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 // 定义页面模板引擎 jade ,pug ...
 app.set('view engine', 'pug');
+app.engine('.html',require('express-art-template'))
+app.set('view engine', 'html');
 // 定义日志打印级别  dev ,debug
 app.use(logger('debug'));
 // 定义json格式处理数据
