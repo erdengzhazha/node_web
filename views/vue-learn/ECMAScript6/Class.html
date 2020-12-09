@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>类的学习</title>
+    <script>
+        class Car{
+
+            //等价于Car的构造函数
+            constructor(sColor,iDoors) {
+                this.sColor = sColor;
+                this.iDoors = iDoors;
+            }
+
+            showColor(){
+                alert(this.sColor + this.iDoors);
+            }
+        }
+        let oCar = new Car('红色', '们');
+        oCar.showColor();
+
+        //立即创建一个类的单例对象
+        let car2 = new class{
+            //等价于Car的构造函数
+            constructor(sColor,iDoors) {
+                this.sColor = sColor;
+                this.iDoors = iDoors;
+            }
+            showColor(){
+                alert(this.sColor + this.iDoors);
+            }
+        }('黑色','dddd');
+        car2.showColor();
+    </script>
+</head>
+<body>
+</body>
+</html>

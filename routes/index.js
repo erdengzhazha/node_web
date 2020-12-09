@@ -4,7 +4,7 @@ var express = require('express');
 var router = express.Router();
 
 /* GET home page. 首页路由 */
-router.get('/index?:id', function(req, res, next) {
+router.get('/c?:id', function(req, res, next) {
   console.log(req.params) //只适合于restfull风格 例子 ： /index/:id
   console.log('这里是中间件');
   console.log(req.url)

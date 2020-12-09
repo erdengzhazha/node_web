@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>箭头函数学习</title>
+    <script>
+        var obj = {
+            greeting: "Hello",
+            sayHello: function(){
+                setTimeout( () => alert(this.greeting) , 2000);
+            }
+        }
+        obj.sayHello();
+    </script>
+</head>
+<body>
+
+</body>
+</html>
